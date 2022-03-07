@@ -1,125 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My bakery</title>
-    <link href="/assets/styles/style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Dulce Viaje</title>
+    <style>
+      .first
+      {
+          margin-right: 15px;
+          font-size: 30px;
+          text-align: right;
+      }
+
+      .second
+      {
+          margin-left: 15px;
+          font-size: 40px;
+      }
+  
+    #container {height: 100%; width:100%; font-size: 0;}
+    #left, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
+    #left {width: 40%;}
+    #right {width: 20%;}
+
+    </style>
   </head>
 
   <body>
-    <div id="Caja">
-      <div id="header">
-        <div id="CuadroMenu1">
-          <div id="Menu">
-            <ul>
-              <li>
-                <a href="#">Iniciar Sesion</a>
-                <span> | </span>
-              </li>
-              <li>
-                <a href="#">Registrase</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <section class="banner"></section>
-        <div id="CuadroMenu2">
-          <div id="Menu2">
-            <ul>
-              <li>
-                <a class="current" href="index.html">Inicio</a>
-                <span> | </span>
-              </li>
-              <li>
-                <a href="juegos.html">Catalogo</a>
-                <span> | </span>
-              </li>
-              <li>
-                <a href="vender.html">Vender</a>
-                <span> | </span>
-              </li>
-              <li>
-                <a href="nosotros.html">Nosotros</a>
-                <span> | </span>
-              </li>
-              <li>
-                <a href="ubicanos.html">Ubicanos</a>
-                <span> | </span>
-              </li>
-              <li>
-                <a href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-        <div id="contenedorRight">
-          <span>Nuestros pasteles:</span>
-          <section>
-            <li>Lima-coco</li>
-            <li>Tres leches</li>
-            <li>Fresas y kiwis</li>
-            <li>Tentación de chocolate</li>
-            <li>Frutos secos</li>
-          </section>
-          <p></p>
-          <span>Noticias</span>
-          <section>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              accusamus porro voluptatum. Voluptatum blanditiis exercitationem,
-              pariatur libero, possimus accusantium maiores accusamus explicabo
-              nostrum delectus fugiat molestias sapiente amet. Cupiditate, odit?
-            </p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            tenetur possimus inventore eligendi magnam ratione suscipit error
-            molestias optio quae perspiciatis debitis impedit modi magni, a
-            provident eveniet accusamus. Sint.
-          </section>
-        </div>
-        <div id="contenedorSocial">
-          <section id="Redes">
-            Siguenos:
-            <br />
-            <ul>
-              <li>
-                <a href="#">
-                  <img
-                    src="/assets/images/facebook.png"
-                    height="30px"
-                    height="30px"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img
-                    src="assets/images/insta.png"
-                    height="30px"
-                    height="30px"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img
-                    src="assets/images/twitter.png"
-                    height="30px"
-                    height="30px"
-                  />
-                </a>
-              </li>
-            </ul>
-          </section>
-        </div>
+    <div id="header" style="background-color: #faedda;">
+
+      <img src="Images/Logo.png" alt="Logo de Pastelería Dorantes" width="100px">
+
+      <div id="right">
+        <h1 class="first">Inicio</h1>
       </div>
 
-      <div id="footer">
-          <span >Derechos Reservaos, Mérida, Yucatán</span><br>
-          <span >Creado por <a href="https://github.com/FelFT">Felipe Flores</a> para Launch X - Misión Frontend - 2022</span> 
+      <div id="left">
+        <ul>
+            <a href="index.html">Inicio</a>
+            <span> | </span>
+         
+            <a href="cakes.html">Catalogo</a>
+            <span> | </span>
+          
+            <a href="order.html">Pedido</a>
+            <span> | </span>
+
+            <a href="contact.html">Contacto</a>
       </div>
     </div>
+
+    <div>
+        <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?cs=srgb&dl=pexels-abhinav-goswami-291528.jpg&fm=jpg", width="500px">
+        <div>
+            Descubre nuestros pasteles de otro mundo. ¡Quedarás con la boca abierta del sabor!
+        </div>
+    </div>
+    <hr>
+ 
+  <div id="footer">
+      <span >Creado por <a href="https://github.com/FelFT">Felipe Flores</a> para Launch X - Misión Frontend - 2022</span> 
+  </div>
   </body>
 </html>

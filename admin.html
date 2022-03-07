@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Dulce Viaje</title>
+    <style>
+      .first
+      {
+          margin-right: 15px;
+          font-size: 30px;
+          text-align: right;
+      }
+
+      .second
+      {
+          margin-left: 15px;
+          font-size: 40px;
+      }
+  
+    #container {height: 100%; width:100%; font-size: 0;}
+    #left, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
+    #left {width: 40%;}
+    #right {width: 20%;}
+
+    </style>
+  </head>
+
+  <body>
+    <div id="header" style="background-color: #faedda;">
+
+      <img src="Images/Logo.png" alt="Logo de Pastelería Dorantes" width="100px">
+
+      <div id="right">
+        <h1 class="first">Pastelero</h1>
+      </div>
+
+      <div id="left">
+        <ul>
+            <a href="index.html">Inicio</a>
+            <span> | </span>
+         
+            <a href="cakes.html">Catalogo</a>
+            <span> | </span>
+          
+            <a href="order.html">Pedido</a>
+            <span> | </span>
+
+            <a href="contact.html">Contacto</a>
+      </div>
+    </div>
+
+    <div id="cakes">
+        <h2>Sabores</h2>
+          <ul>
+            <li>
+              Explosión de coco | 5 restantes
+            </li>
+            <li>
+              Viaje de Tres Leches | 10 restantes
+            </li>
+            <li>
+                Desviación de fresa | 2 restantes
+            </li>
+            <li>
+                Chocolate espacial | 20 restantes
+            </li>
+          </ul>
+    </div>
+
+    <hr>
+
+    <div id="decorations">
+        <h2>Adornos</h2>
+        <ul>
+          <li>
+            Texto personalizado | 20 cuadros restantes
+          </li>
+          <li>
+            Merengue | 10 kg restantes
+          </li>
+          <li>
+            Rodajas de mango | 70 restantes
+          </li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div id="orders">
+        <h2>Pedidos</h2>
+        <table class="default">
+            <tr></tr>
+              <th>ID de pedido</th>
+              <th>Descripción</th>
+              <th>Cliente</th>
+              <th>Estatus</th>
+            </tr>
+          
+            <tr>
+              <td>263548</td>
+              <td>Explosión de coco</td>
+              <td>María Ortiz</td>
+              <td>En proceso de entrega</td>
+            </tr>
+          
+          </table>
+
+    </div>
+
+    <br>
+    <input type="button" value="Atender pedido"/>
+
+    <hr>
+
+    <div id="footer">
+        <span >Creado por <a href="https://github.com/FelFT">Felipe Flores</a> para Launch X - Misión Frontend - 2022</span> 
+    </div>
+  </body>
+</html>
